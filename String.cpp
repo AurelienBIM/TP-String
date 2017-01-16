@@ -11,6 +11,4 @@ String::String( char* c ) {
 
 }
 
-String::String( String s ) {
-
-}
+// String::String( String s ) { }
