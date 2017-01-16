@@ -48,3 +48,12 @@ int String::size(char* c = chaine_){
 	}
 	return i;
 }
+
+/*String& string::operator=(String &str)
+{
+	String str2(str);
+	delete [] chaine_;
+    return str2*;
+}*/
+
+
