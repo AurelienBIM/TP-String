@@ -1,3 +1,4 @@
+#include <stdio.h>
 #include "String.h"
 #define INIT_CAPACITY 255
 
