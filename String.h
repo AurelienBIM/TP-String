@@ -20,6 +20,7 @@ class String {
 	~String(void);
 	
 	int length(char* c = chaine_);
+	int size(char* c = chaine_);	
 	
 };
   
