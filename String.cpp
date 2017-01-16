@@ -1,5 +1,5 @@
 #include "String.h"
-#define init_capacity = 255;
+#define INIT_CAPACITY 255;
 
 String::String() {
 	chaine_ = new char[init_capacity];
