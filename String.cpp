@@ -32,3 +32,11 @@ String::String( char* c ) {
 String::~String( void ) {
 	delete [] chaine_;
 }
+
+int String::String length(char* c = chaine_){
+	int i=0;
+	while( c[i]!='\0'){
+		i=i+1;
+	}
+	return i;
+}
