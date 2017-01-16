@@ -14,7 +14,7 @@ class String {
 	// Constructeurs
 	String();
 	String(char* c);
-	String(String s);
+	// String(String s);
 
 };
   
