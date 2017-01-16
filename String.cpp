@@ -2,8 +2,8 @@
 #define INIT_CAPACITY 255;
 
 String::String() {
-	chaine_ = new char[init_capacity];
-	capacity_ = init_capacity;
+	chaine_ = new char[INIT_CAPACITY];
+	capacity_ = INIT_CAPACITY;
 	length_=0;
 }
 
