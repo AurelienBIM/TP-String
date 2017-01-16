@@ -19,8 +19,8 @@ class String {
 	//Destructor
 	~String(void);
 	// Method
-	int length(char* c = chaine_);
-	int size(char* c = chaine_);	
+	int length(char* c);
+	int size(char* c);	
 	
 };
   
