@@ -1,6 +1,7 @@
 #include <stdio.h>
 #include <stdlib.h>
-
+#ifndef STRING_H 
+#define STRING_H
 class String {
 	
 	protected :
@@ -20,3 +21,4 @@ class String {
   
   
   
+#endif // String_H
