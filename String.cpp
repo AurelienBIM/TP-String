@@ -33,7 +33,7 @@ String::~String( void ) {
 	delete [] chaine_;
 }
 
-int String::length(char* c = chaine_){
+int String::length(char* c){
 	int i=0;
 	while( c[i]!='\0'){
 		i=i+1;
@@ -41,7 +41,7 @@ int String::length(char* c = chaine_){
 	return i;
 }
 
-int String::size(char* c = chaine_){
+int String::size(char* c /*= chaine_*/){
 	int i=0;
 	while( c[i]!='\0'){
 		i=i+1;

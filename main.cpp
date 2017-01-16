@@ -3,4 +3,7 @@
 
 int main(){
 
+	String machaine();
+	int taille = machaine.length();
+	printf("%d",taille);
 }
