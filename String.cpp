@@ -1,5 +1,5 @@
 #include "String.h"
-#define INIT_CAPACITY 255;
+#define INIT_CAPACITY 255
 
 String::String() {
 	chaine_ = new char[INIT_CAPACITY];
@@ -13,6 +13,6 @@ String::String( char* c ) {
 
 // String::String( String s ) { }
 
-String::~String( void ) {
+/*String::~String( void ) {
 	delete [] chaine_;
-}
+}*/
