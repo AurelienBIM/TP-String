@@ -14,6 +14,6 @@ String::String( char* c ) {
 
 // String::String( String s ) { }
 
-/*String::~String( void ) {
+String::~String( void ) {
 	delete [] chaine_;
-}*/
+}

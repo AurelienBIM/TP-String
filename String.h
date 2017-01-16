@@ -16,7 +16,8 @@ class String {
 	String();
 	String(char* c);
 	// String(String s);
-
+	//Destructor
+	~String(void);
 };
   
   
