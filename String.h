@@ -11,7 +11,7 @@ class String {
 		
 	public :
 
-	#Constructeurs
+	// Constructeurs
 	String();
 	String(char* c);
 	String(String s);
