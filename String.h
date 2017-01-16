@@ -18,7 +18,7 @@ class String {
 	// String(String s);
 	//Destructor
 	~String(void);
-	
+	// Method
 	int length(char* c = chaine_);
 	int size(char* c = chaine_);	
 	
