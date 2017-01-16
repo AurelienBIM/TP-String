@@ -12,4 +12,4 @@ String.o: String.cpp String.h
 	g++ $(CFLAGS) -c String.cpp -o String.o
 
 clean:
-rm -f *.o
+	rm -f *.o
